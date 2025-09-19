@@ -6,20 +6,20 @@ science = 97.5
 coding = 99.5
 
 #calculating marks and average
-marks = [maths, science, coding]
+marks = [Maths, science, coding]
 total = sum(marks)
 average = total/len(marks)
 
 #step 3 : adding to dictionary
 student = {
-  "Name":name,
-  "Age":age,
-  "Marks":marks
-  "Total":total,
+  "Name":name, 
+  "Age" : age, 
+  "Marks" : marks, 
+  "Total" : total, 
   "Average":average
-}
+  }
 
-#printing the dictionary
+#step 4: printing the dictionary
 print(student)
 
 #step 5:Bonus - Grade Check
